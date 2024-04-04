@@ -5,7 +5,7 @@ import Weather from '../assets/weather.png'
 
 function Work() {
   return (
-    <div name='Work' className='w-full md:h-screen text-[#cecece] bg-[#1B3540]'>
+    <div name='work' className='w-full md:h-screen text-[#cecece] bg-[#1B3540]'>
         <div className='max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8' >
                 <p className='text-4xl font-bold inline border-b-4 text-[#cecece] border-[#FF3131]'>Works</p>
