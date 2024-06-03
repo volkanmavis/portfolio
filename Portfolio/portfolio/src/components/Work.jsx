@@ -1,7 +1,10 @@
 import React from 'react'
 import Todo from '../assets/todo.png';
 import Scramble from '../assets/scramble.png';
-import Weather from '../assets/weather.png'
+import Weather from '../assets/weather.png';
+import Informapption from '../assets/informapption.png';
+import Recipe from '../assets/recipe.png'
+
 
 function Work() {
   return (
@@ -12,17 +15,51 @@ function Work() {
                 <p className='py-6'>Here, you can explore some of my recent projects</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div style={{backgroundImage: `url(${Informapption})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-[#cecece] tracking-wider text-center'>
+                            Trivia Game
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://informapption-1.onrender.com/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>See</button>
+                            </a>
+                            <a href="https://github.com/volkanmavis/InformApption" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Github</button>
+                            </a> 
+                        </div>
+                        
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${Recipe})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-[#cecece] tracking-wider text-center'>
+                            Recipe App
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://recipe-app-1-8uxq.onrender.com/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>See</button>
+                            </a>
+                            <a href="https://github.com/volkanmavis/Recipe-app" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Github</button>
+                            </a> 
+                        </div>
+                        
+                    </div>
+                </div>
                 <div style={{backgroundImage: `url(${Todo})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-[#cecece] tracking-wider text-center'>
-                            Full-stack Todo App
+                            Todo App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Demo</button>
+                            <a href="https://todolist-fullstack-1.onrender.com/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>See</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/volkanmavis/todolist-fullstack" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Github</button>
                             </a> 
                         </div>
@@ -33,13 +70,13 @@ function Work() {
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-[#cecece] tracking-wider text-center'>
-                            Word-Scramble App
+                            Word-Scramble Game
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Demo</button>
+                            <a href="https://word-scramble-game-vm.netlify.app/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>See</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/volkanmavis/Word-Scramble-Game" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Github</button>
                             </a> 
                         </div>
@@ -53,10 +90,10 @@ function Work() {
                             Weather App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Demo</button>
+                            <a href="https://web-app-vm.netlify.app/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>See</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/volkanmavis/Weather-app" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-[white] text-[#cecece] font-bold text-lg'>Github</button>
                             </a> 
                         </div>

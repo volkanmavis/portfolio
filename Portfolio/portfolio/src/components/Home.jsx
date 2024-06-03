@@ -12,17 +12,18 @@ function Home() {
           embracing challenges that push me beyond my comfort zone and into new languages.
           Let's dive into projects that demand exploration!</p>
         <div>
-          <button className='text-[#cecece] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF3131] hover:border-[#FF3131]'>View My Work
-          <span className='group-hover:rotate-90 duration-200'>
-            <LiaArrowUpSolid className='ml-3' />
-          </span>
-          </button>
+          <a href="https://github.com/volkanmavis" target="_blank" rel="noopener noreferrer">
+            <button className='text-[#cecece] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF3131] hover:border-[#FF3131]'>
+              View My Work
+              <span className='group-hover:rotate-90 duration-200'>
+                <LiaArrowUpSolid className='ml-3' />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
-      
-        
     </div>
-  )
+  );
 }
 
-export default Home; 
+export default Home;
